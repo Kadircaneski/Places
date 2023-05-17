@@ -24,7 +24,7 @@ class _AddNewPlaceState extends ConsumerState<AddNewPlace> {
       return;
     }
     ref
-        .read(userPlacesProvider.notifier)
+        .read(userPlacesProviderr.notifier)
         .addPlace(enteredText, _selectedImage!);
 
     Navigator.of(context).pop();

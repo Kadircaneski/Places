@@ -40,7 +40,7 @@ class PlacesList extends StatelessWidget {
                       .copyWith(color: Theme.of(context).colorScheme.onBackground),
                 ),
                 shape: RoundedRectangleBorder(
-                  side: BorderSide(width: 2, color: Colors.white),
+                  side: const BorderSide(width: 2, color: Colors.white),
                   borderRadius: BorderRadius.circular(20),
                 ),
               ),
